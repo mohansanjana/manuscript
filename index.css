@@ -1,6 +1,4 @@
-
-body{
-    @font-face {
+   @font-face {
         font-family: 'Melodrama-Variable';
         src: url('../fonts/Melodrama-Variable.woff2') format('woff2'),
              url('../fonts/Melodrama-Variable.woff') format('woff'),
@@ -9,4 +7,9 @@ body{
              font-display: swap;
              font-style: normal;
       }
-}
+
+    h1{
+        font-family: 'Melodrama-Variable', Arial, serif;
+        font-weight:500;
+        font-style:normal;
+    }
