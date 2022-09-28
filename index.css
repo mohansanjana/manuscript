@@ -1,15 +1,205 @@
-   @font-face {
-        font-family: 'Melodrama-Variable';
-        src: url('../fonts/Melodrama-Variable.woff2') format('woff2'),
-             url('../fonts/Melodrama-Variable.woff') format('woff'),
-             url('../fonts/Melodrama-Variable.ttf') format('truetype');
-             font-weight: 300 700;
-             font-display: swap;
-             font-style: normal;
-      }
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,600;1,500;1,700&family=Manrope:wght@300;500;700&display=swap');
+
+
+@font-face {
+    font-family: 'Array-Semibold';
+    src: url('../fonts/Array-Semibold.woff2') format('woff2'),
+         url('../fonts/Array-Semibold.woff') format('woff'),
+         url('../fonts/Array-Semibold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+
+  .flamingo-text{
+    color: #FF8DD8;
+  }
+
+  .violet-text{
+    color: #5017AE
+  }
+
+  .cobalt-text{
+    color: #2000E3
+  }
+
+  .candyred-text{
+    color: #E00000
+  }
+
+  .cantaloupe-text{
+    color: #FF9458
+  }
+
+  .babyblue-text{
+    color: #BAFBFF
+  }
+
+  .lilac-text{
+    color: #D355FF
+  }
+
+  .green-text{
+    color: #07C753
+  }
+
+  .barbiepink-text{
+    color: #E22A83
+  }
+
+  .mango-text{
+    color: #FFAF36
+  }
+
+  .teal-text{
+    color: #28AAB2
+  }
+
+  .skyblue-text{
+    color: #00B2FF
+  }
+
+
+      body {
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-bottom: 100px;
+        margin-top: 64px;
+        padding-left: 120px;
+        padding-right: 120px;
+
+        }
+
+    
 
     h1{
-        font-family: 'Melodrama-Variable';
-        font-weight:300;
-        font-style:normal;
+        font-size: 120px;
+        font-family: 'Array-Semibold';
+        font-weight: 600;
+        font-style: normal;
+        padding-left: auto;
+        padding-right: auto;
+        text-align: left;
     }
+
+    h2{
+        font-size: 32px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: underline;
+    }
+
+    p{
+        font-size: 20px;
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 200;
+        font-style: normal;
+
+    }
+
+    h3{
+        font-size: 42px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 64px;
+    }
+
+    h4{
+        font-size: 24px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    h5{
+        font-size: 16px;
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    h6{
+        font-size: 28px;
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .emphasis {
+        font-style: italic;
+        color: #353535;
+      }
+
+    .bold{
+        font-weight: 550
+    }
+
+    .circle1{
+        height: 20px;
+        width: 20px;
+        background-color: #000000;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .circle2{
+        height: 20px;
+        width: 20px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        border: 1px solid #000000;
+        display: inline-block;
+    }
+
+    .circle3{
+        height: 20px;
+        width: 20px;
+        background-color: #FFE500;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .circle4{
+        height: 20px;
+        width: 20px;
+        background-color: #FF8832;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .circle5{
+        height: 20px;
+        width: 20px;
+        background-color: #FF0000;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .circle6{
+        height: 20px;
+        width: 20px;
+        background-color: #4CDB7C;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .circle7{
+        height: 20px;
+        width: 20px;
+        background-color: #387CFF;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .circle8{
+        height: 20px;
+        width: 20px;
+        background-color: #BF38FF;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+
+    
