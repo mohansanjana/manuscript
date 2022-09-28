@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,600;1,500;1,700&family=Manrope:wght@300;500;700&display=swap');
+@import ul('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,600;1,500;1,700&family=Manrope:wght@300;500;700&display=swap');
 
 
 @font-face {
     font-family: 'Array-Semibold';
-    src: url('../fonts/Array-Semibold.woff2') format('woff2'),
-         url('../fonts/Array-Semibold.woff') format('woff'),
-         url('../fonts/Array-Semibold.ttf') format('truetype');
+    src: url(fonts/Fonts/Array-Semibold.otf) format('opentypeface');
          font-weight: 600;
          font-display: swap;
          font-style: normal;
@@ -74,7 +72,7 @@
 
     h1{
         font-size: 120px;
-        font-family: 'Array-Semibold';
+        font-family: 'Array-Semibold', 'Manrope';
         font-weight: 600;
         font-style: normal;
         padding-left: auto;
